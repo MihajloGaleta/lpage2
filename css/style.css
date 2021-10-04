@@ -130,6 +130,10 @@ body {
 .nav__item:last-child {
   margin-left: 0;
 }
+.nav__item:hover {
+  border-radius: 3px;
+  background-color: #643a79;
+}
 
 .nav__link {
   color: #fff;
