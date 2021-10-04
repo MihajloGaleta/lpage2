@@ -81,6 +81,19 @@ body {
   font-family: "Titillium Web", sans-serif;
 }
 
+.btn {
+  display: block;
+  font-size: 18px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 29px 84px;
+}
+.btn:active {
+  border-bottom: none;
+}
+
 .wrapper {
   max-width: 1070px;
   margin: 0 auto;
