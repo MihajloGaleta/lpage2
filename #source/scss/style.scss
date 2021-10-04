@@ -64,6 +64,7 @@ body {
 }
 .nav__item {
 	margin-left: 4px ;
+	transition-duration: 0.3s;
 	&:last-child{
 		margin-left: 0;
 	}
