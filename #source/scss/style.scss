@@ -37,6 +37,7 @@ body {
 	justify-content: space-between;
 	align-items: center;
 	padding-top: 58px;	
+	margin-bottom: 144px;
 }
 .logo {
 	display: inline-block;
@@ -61,8 +62,14 @@ body {
 	padding: 10px 17px;
 	letter-spacing: 1.1px;
 }
-.btn {
+.header h1{
+	color:#fff;
+	font-size: 42.16px;
+	text-align: center;
+	letter-spacing: -.5px;
+	margin-bottom: 55px;
 }
+
 .header__btn {
 }
 //ШАПКА. КОНЕЦ
