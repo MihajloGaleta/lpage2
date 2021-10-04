@@ -27,8 +27,9 @@ body {
 	max-width: 300px ;
 	margin: 0 auto;
 	padding: 29px 84px;
+	transition-duration: 0.3s;
 	&:active{
-		border-bottom: none;
+		box-shadow: none;
 	}
 }
 
@@ -83,7 +84,14 @@ body {
 	margin-bottom: 55px;
 }
 
+.header__button{
+	padding-bottom: 145px;
+}
+
 .header__btn {
+	color:#fff;
+	background-color: #eb7d4b;
+	box-shadow:0 5px 0 #c86a40 ;
 }
 //ШАПКА. КОНЕЦ
 

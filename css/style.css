@@ -89,9 +89,10 @@ body {
   max-width: 300px;
   margin: 0 auto;
   padding: 29px 84px;
+  transition-duration: 0.3s;
 }
 .btn:active {
-  border-bottom: none;
+  box-shadow: none;
 }
 
 .wrapper {
@@ -145,4 +146,14 @@ body {
   text-align: center;
   letter-spacing: -0.5px;
   margin-bottom: 55px;
+}
+
+.header__button {
+  padding-bottom: 145px;
+}
+
+.header__btn {
+  color: #fff;
+  background-color: #eb7d4b;
+  box-shadow: 0 5px 0 #c86a40;
 }
