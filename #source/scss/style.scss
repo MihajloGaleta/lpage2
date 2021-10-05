@@ -34,7 +34,19 @@ body {
 }
 /*for the same titles in all articles*/
 .title{  
-
+font-size: 40px;
+font-weight: 700;
+text-align: center;
+letter-spacing: 3px;
+word-spacing: 15px;
+	&::after{
+		content: '';
+		display: block;
+		width: 9%;
+		height: 4px;
+		background-color: #c8d9e5;
+		margin: 0 auto;
+	}
 }
 
 //GENERAL STYLES . END
