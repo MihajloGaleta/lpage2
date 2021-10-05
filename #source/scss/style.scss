@@ -13,36 +13,40 @@
 //НАЧАЛО СТИЛИЗАЦИИ КОНТЕНТА
 ///////////////////////////////////////////////////////////////////////
 
-//ОБЩИЕ СТИЛИ . НАЧАЛО
-
+//GENERAL STYLES . BEGINING
+/*MAKE GENERAL FONT FAMILY FOR BODY*/
 body {
 	font-family: "Titillium Web", sans-serif;
 }
-
-.btn {
-	display:block;
+/*MAKE GENERAL PROPERTY FOR BODY*/
+.btn {                
+	display:block;        /*center alignment*/
+	max-width: 300px ;    /*center alignment*/
+	margin: 0 auto;       /*center alignment*/
 	font-size: 18px;
 	text-transform: uppercase;
 	border-radius: 5px;
-	max-width: 300px ;
-	margin: 0 auto;
 	padding: 29px 84px;
 	transition-duration: 0.3s;
 	&:active{
 		box-shadow: none;
 	}
 }
+/*for the same titles in all articles*/
+.title{  
 
-//ОБЩИЕ СТИЛИ . НАЧАЛО
-//КОНЕЙНЕР. НАЧАЛО
+}
+
+//GENERAL STYLES . END
+//WRAPPER. BEGIN
 .wrapper {
 	max-width: 1070px;
 	margin: 0 auto;
 	padding: 0 15px;
 }
-//КОНТЕЙНЕР . КОНЕЦ
+//WRAPPER . END
 
-//ШАПКА. НАЧАЛО
+//HEADER. BEGIN
 .header {
 	background-color: #87509c;
 }
@@ -98,12 +102,36 @@ body {
 	background-color: #eb7d4b;
 	box-shadow:0 5px 0 #c86a40 ;
 }
-//ШАПКА. КОНЕЦ
+//HEADER. END
 
-//MAIN. НАЧАЛО
+//SERVICES. BEGIN
 
-//MAIN. КОНЕЦ
+.services {
+	margin-bottom: 119px;
+}
 
-//ПОДВАЛ. НАЧАЛО
+.services__title {
 
-//ПОДВАЛ.КОНЕЦ
+}
+.tagline {
+}
+.flex-row {
+}
+.services__flex-row {
+}
+.services__flex-item {
+}
+.services__image {
+}
+.services__subtitle {
+}
+.text {
+}
+.paragraph {
+}
+
+//SERVICES. END
+
+//FOOTER. BEGIN
+
+//FOOTER.END
