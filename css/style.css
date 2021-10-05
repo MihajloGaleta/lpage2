@@ -114,7 +114,15 @@ body {
   width: 9%;
   height: 4px;
   background-color: #c8d9e5;
-  margin: 21px auto 23px;
+  margin: 18px auto 20px;
+}
+
+.tagline {
+  font-size: 18px;
+  max-width: 607px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.5em;
 }
 
 .wrapper {
