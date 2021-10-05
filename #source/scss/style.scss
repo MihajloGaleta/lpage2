@@ -56,6 +56,11 @@ word-spacing: 15px;
 	text-align: center;
 	line-height: 1.5em;
 }
+
+.flex-row {
+	display: flex;
+	justify-content: space-between;
+}
 //GENERAL STYLES . END
 //WRAPPER. BEGIN
 .wrapper {
@@ -139,19 +144,38 @@ word-spacing: 15px;
 	margin-bottom: 76px;
 }
 
-.flex-row {
-}
 .services__flex-row {
+	padding-bottom: 139px;
 }
 .services__flex-item {
+	flex: 0 1 24%;
+	text-align: center;
+	padding: 0 15px;	
 }
 .services__image {
+	width: 100%;
+	height: 100%;
+	img{
+		max-width: 100%;
+		max-height: 100%;
+	}
 }
 .services__subtitle {
+	color: #fff;
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 25px;
 }
 .text {
+
 }
 .paragraph {
+	color: #fff;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.5em;
+	padding: 0 10px;
+	overflow: hidden;
 }
 
 //SERVICES. END
