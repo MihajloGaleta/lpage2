@@ -131,7 +131,7 @@ word-spacing: 15px;
 //SERVICES. BEGIN
 
 .services {
-	margin-bottom: 119px;
+	padding-bottom: 119px;
 	background-color: #17c2a4;
 }
 
@@ -180,9 +180,8 @@ word-spacing: 15px;
 //OUR-TEAM. START
 
 .our-team {
-	margin-bottom: 117px;
 	background-color: #e7f1f8;
-	padding-bottom:127px ;
+	padding:127px 0 ;
 }
 
 .our-team__title {
@@ -261,9 +260,9 @@ word-spacing: 15px;
 //SKILLS. START
 
 .skills {
+	padding: 117px 0;
 	color: #3c4761;
 }
-
 
 .skills__tagline {
 	margin-bottom:75px ;

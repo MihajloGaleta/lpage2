@@ -199,7 +199,7 @@ body {
 }
 
 .services {
-  margin-bottom: 119px;
+  padding-bottom: 119px;
   background-color: #17c2a4;
 }
 
@@ -248,9 +248,8 @@ body {
 }
 
 .our-team {
-  margin-bottom: 117px;
   background-color: #e7f1f8;
-  padding-bottom: 127px;
+  padding: 127px 0;
 }
 
 .our-team__title {
@@ -324,6 +323,7 @@ body {
 }
 
 .skills {
+  padding: 117px 0;
   color: #3c4761;
 }
 
