@@ -166,9 +166,7 @@ word-spacing: 15px;
 	font-weight: 700;
 	margin-bottom: 25px;
 }
-.text {
 
-}
 .paragraph {
 	color: #fff;
 	font-size: 16px;
@@ -179,7 +177,88 @@ word-spacing: 15px;
 }
 
 //SERVICES. END
+//OUR-TEAM. START
 
+.our-team {
+	margin-bottom: 117px;
+	&.flex-row{
+		margin-bottom:127px ;
+	}
+}
+
+.our-team__title {
+	color: #3c4761;
+}
+
+.our-team__tagline {
+	font-size: 18.58px;
+	letter-spacing: -0.5px;
+	margin-bottom:78px ;
+}
+
+.our-team__crewman {
+	flex: 0 1 23%;
+	align-items: center;
+	text-align: center;
+}
+
+.avatar {
+	background-color: #878787;
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 0 auto;
+	img{
+		max-width: 100%;
+		max-height: 100%;
+	}
+}
+
+
+.our-team__subtitle {
+	color: #27283d;
+	font-size: 24px;
+	margin-bottom: 15px;
+}
+
+.our-team__profession {
+	color: #30bae7;
+	font-size: 16px;
+	margin-bottom: 27px;
+}
+
+.our-team__about-crewman {
+	line-height: 2em;
+	padding:0 15px;
+	margin-bottom: 30px;
+	max-height: 300px;
+	overflow-y: auto;
+	p{
+		margin-bottom: 10px ;
+	&:last-child{
+		margin-bottom: 0;
+	}
+	}
+}
+
+.our-team__list-item {
+	display: inline-block;
+	margin-right: 12px;
+
+}
+
+.fab, .fas {
+	display: inline-block;
+	color: gray;
+	font-size: 32px;
+	border-radius: 50%;
+	&:hover{
+		color: blue;
+	}
+}
+
+//OUR-TEAM. END
 //FOOTER. BEGIN
 
 //FOOTER.END
