@@ -181,9 +181,8 @@ word-spacing: 15px;
 
 .our-team {
 	margin-bottom: 117px;
-	&.flex-row{
-		margin-bottom:127px ;
-	}
+	background-color: #e7f1f8;
+	padding-bottom:127px ;
 }
 
 .our-team__title {
@@ -262,7 +261,6 @@ word-spacing: 15px;
 //SKILLS. START
 
 .skills {
-	padding-top: 117px;
 	color: #3c4761;
 }
 
