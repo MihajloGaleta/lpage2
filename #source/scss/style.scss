@@ -261,7 +261,38 @@ word-spacing: 15px;
 //OUR-TEAM. END
 //SKILLS. START
 
+.skills {
+	padding-top: 117px;
+	color: #3c4761;
+}
 
+
+.skills__tagline {
+	margin-bottom:75px ;
+}
+
+.skills__flex-item {
+	flex: 0 1 23%;
+	align-self: center;
+	padding:0 10px ;
+}
+.skills__percentage {
+	background:url('../img/skills/bg__web-design.png') 25px 16px no-repeat;
+	font-size: 50px;
+	font-weight: 300;
+	text-align: center;
+	padding: 70px 40px;
+	margin-bottom: 27px;
+	span{
+		font-size: 32px;
+	}
+}
+.skills__name {
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+}
 
 //SKILLS. END
 //FOOTER. BEGIN
