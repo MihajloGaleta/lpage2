@@ -303,6 +303,64 @@ word-spacing: 15px;
 }
 
 //SKILLS. END
+//PORTFOLIO. BEGIN
+
+.portfolio {
+	padding: 120px 0;
+	background-color: #ffdd99;
+	color: #393939;
+}
+
+.portfolio__title {
+	font-size: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.portfolio__tagline {
+	font-size: 18px;
+	margin-bottom: 42px ;
+}
+
+.portfolio__switch-buttons {
+	display: flex;
+	justify-content: center;
+}
+.portfolio__switch-item {
+	display: inline-block;
+	padding: 10px 25px;
+	margin: 0 5px 62px;
+	background-color: #ebc985;
+	border-radius: 3px;
+	&:hover{
+		background-color: #fff;
+	}
+	button{
+		background-color: transparent;
+		font-size:18px ;
+		text-transform: uppercase;
+	}
+}
+.portfolio__switch-to-all-btn {
+}
+.portfolio__switch-to-web-btn {
+}
+.portfolio__switch-to-apps-btn {
+}
+.portfolio__switch-to-icons-btn {
+}
+.flex-row {
+}
+.portfolio__flex-item {
+}
+.portfolio__flex-title {
+}
+.portfolio__btn {
+}
+.btn {
+}
+
+//PORTFOLIO. END
 //FOOTER. BEGIN
 
 //FOOTER.END
