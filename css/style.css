@@ -438,3 +438,13 @@ body {
   background-color: #17c2a4;
   box-shadow: 0 5px 0 #14a58c;
 }
+
+.reviews {
+  padding: 120px 0;
+  background: #d74680;
+  color: #fff;
+}
+
+.reviews__tagline {
+  margin-bottom: 71px;
+}
