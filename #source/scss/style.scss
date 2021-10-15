@@ -389,6 +389,7 @@ word-spacing: 15px;
 .client {
 	flex: 0 1 46%;
 	display: flex;
+	margin-bottom: 147px;
 }
 .client__avatar {
 	width: 100px;
@@ -399,10 +400,20 @@ word-spacing: 15px;
 	flex: 0 1 60%;
 }
 .client__review {
+	font-size: 21px;
+	font-style: italic;
+	margin-bottom: 20px;
+	line-height: 1.5;
 }
 .client__name {
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 5px;
+	text-transform: uppercase;
 }
 .client__profession {
+	font-size: 18px;
+	color: #ffdd99;
 }
 //REVIEWS . START
 //FOOTER. BEGIN

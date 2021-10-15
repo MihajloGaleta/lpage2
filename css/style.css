@@ -452,6 +452,7 @@ body {
 .client {
   flex: 0 1 46%;
   display: flex;
+  margin-bottom: 147px;
 }
 
 .client__avatar {
@@ -461,4 +462,23 @@ body {
 
 .client__info {
   flex: 0 1 60%;
+}
+
+.client__review {
+  font-size: 21px;
+  font-style: italic;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.client__name {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.client__profession {
+  font-size: 18px;
+  color: #ffdd99;
 }
