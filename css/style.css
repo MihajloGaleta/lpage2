@@ -448,3 +448,17 @@ body {
 .reviews__tagline {
   margin-bottom: 71px;
 }
+
+.client {
+  flex: 0 1 46%;
+  display: flex;
+}
+
+.client__avatar {
+  width: 100px;
+  height: 100px;
+}
+
+.client__info {
+  flex: 0 1 60%;
+}
