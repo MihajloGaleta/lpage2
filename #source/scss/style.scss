@@ -316,6 +316,9 @@ word-spacing: 15px;
 	font-size: 40px;
 	font-weight: 700;
 	text-transform: uppercase;
+	&::after{
+		background-color: #e5c37f !important;
+	}
 }
 
 .portfolio__tagline {

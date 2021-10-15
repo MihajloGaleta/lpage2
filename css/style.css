@@ -379,6 +379,9 @@ body {
   font-weight: 700;
   text-transform: uppercase;
 }
+.portfolio__title::after {
+  background-color: #e5c37f !important;
+}
 
 .portfolio__tagline {
   margin-bottom: 42px;
