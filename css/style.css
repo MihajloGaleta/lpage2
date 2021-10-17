@@ -499,3 +499,10 @@ body {
   padding-top: 120px;
   background-color: #3c5499;
 }
+
+.contacts__tagline {
+  font-size: 18px;
+  line-height: 1.44;
+  letter-spacing: 0.36px;
+  color: #fff;
+}
