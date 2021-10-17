@@ -514,3 +514,16 @@ body {
   letter-spacing: 0.36px;
   color: #fff;
 }
+
+.user-name, .user-mail {
+  display: inline-block;
+  width: 46%;
+}
+
+.user-message {
+  display: block;
+}
+
+.user-name {
+  margin-right: 32px;
+}

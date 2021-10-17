@@ -435,6 +435,19 @@ word-spacing: 15px;
   color: #fff;
 }
 
+.user-name, .user-mail {
+	display: inline-block;
+	width: 46%;
+}
+
+.user-message{
+	display: block;
+}
+.user-name{
+margin-right: 32px;
+}
+.user-mail {
+}
 //CONTACTS.END
 //FOOTER. START
 
