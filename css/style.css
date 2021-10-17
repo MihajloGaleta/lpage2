@@ -521,6 +521,9 @@ body {
 }
 
 .user-name, .user-mail {
+  font-size: 18px;
+  line-height: 1;
+  color: #fff;
   display: inline-block;
   width: 47%;
   margin-bottom: 27px;
@@ -528,14 +531,108 @@ body {
   font-size: 18px;
   color: #fff;
   background-color: #273a71;
+  padding-left: 25px;
+  position: relative;
+  text-transform: capitalize;
 }
 
 .user-message {
+  font-size: 18px;
+  line-height: 1;
+  color: #fff;
   display: block;
   width: 100%;
   min-height: 200px;
   margin-bottom: 59px;
   background-color: #273a71;
+  position: relative;
+  padding: 24px 0 0 25px;
+}
+.user-message::after {
+  content: "*";
+  position: absolute;
+  color: red;
+  top: 50%;
+  right: 50%;
+  font-size: 52px;
+}
+
+.user-name::-webkit-input-placeholder {
+  font-size: 18px;
+  line-height: 1;
+  color: #fff;
+}
+
+.user-name::-moz-placeholder {
+  font-size: 18px;
+  line-height: 1;
+  color: #fff;
+}
+
+/* Firefox 19+ */
+.user-name:-moz-placeholder {
+  font-size: 18px;
+  line-height: 1;
+  color: #fff;
+}
+
+/* Firefox 18- */
+.user-name:-ms-input-placeholder {
+  font-size: 18px;
+  line-height: 1;
+  color: #fff;
+}
+
+.user-mail::-webkit-input-placeholder {
+  font-size: 18px;
+  line-height: 1;
+  color: #fff;
+}
+
+.user-mail::-moz-placeholder {
+  font-size: 18px;
+  line-height: 1;
+  color: #fff;
+}
+
+/* Firefox 19+ */
+.user-mail:-moz-placeholder {
+  font-size: 18px;
+  line-height: 1;
+  color: #fff;
+}
+
+/* Firefox 18- */
+.user-mail:-ms-input-placeholder {
+  font-size: 18px;
+  line-height: 1;
+  color: #fff;
+}
+
+.user-message::-webkit-input-placeholder {
+  font-size: 18px;
+  line-height: 1;
+  color: #fff;
+}
+
+.user-message::-moz-placeholder {
+  font-size: 18px;
+  line-height: 1;
+  color: #fff;
+}
+
+/* Firefox 19+ */
+.user-message:-moz-placeholder {
+  font-size: 18px;
+  line-height: 1;
+  color: #fff;
+}
+
+/* Firefox 18- */
+.user-message:-ms-input-placeholder {
+  font-size: 18px;
+  line-height: 1;
+  color: #fff;
 }
 
 .user-name {
