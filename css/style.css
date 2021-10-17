@@ -644,3 +644,24 @@ body {
   background: #30bae7;
   padding: 28px 85px;
 }
+
+.footer {
+  background: #344b8e;
+  padding: 45px 0;
+}
+
+.footer__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__list-item {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: 0.48px;
+  color: #fff;
+}
+.footer__list-item:hover {
+  color: #30bae7;
+}
