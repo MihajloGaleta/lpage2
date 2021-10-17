@@ -451,9 +451,12 @@ word-spacing: 15px;
 	color: #fff;
 	background-color: #273a71;
 	padding-left: 25px;
-	position: relative;
 	text-transform: capitalize;
 }
+
+.user-name{
+	margin-right: 46px;
+	}
 
 .user-message{
 	font-size: 18px;
@@ -464,16 +467,8 @@ word-spacing: 15px;
 	min-height: 200px;
 	margin-bottom: 59px;
 	background-color: #273a71;
-	position: relative;
 	padding: 24px 0 0 25px;
-	&::after{
-		content: '*';
-		position: absolute;
-		color: red;
-		top: 50%;
-		right: 50%;
-		font-size: 52px;
-	}
+
 }
 
 @mixin placeholder{
@@ -499,10 +494,7 @@ word-spacing: 15px;
 
 
 
-.user-name{
-margin-right: 46px;
 
-}
 
 //CONTACTS.END
 //FOOTER. START
