@@ -126,6 +126,10 @@ word-spacing: 15px;
 	background-color: #eb7d4b;
 	box-shadow:0 5px 0 #c86a40 ;
 }
+
+.burger-menu{
+	display: none;
+}
 //HEADER. END
 
 //SERVICES. BEGIN
@@ -530,3 +534,26 @@ word-spacing: 15px;
 	}
 }
 //FOOTER.END
+
+//adaptive
+@media (max-width: 614px){
+	.nav li{
+		display: none;
+	}
+	.burger-menu{
+		display: block;
+		align-self: flex-end;
+	}
+}
+@media (max-width: 872px) {
+	h1{
+		max-width: 75%;
+		margin: 0 auto;
+	}
+	.our-team__crewman{
+		flex: 0 1 25%;
+	}
+	.flex-row{
+		flex-wrap: wrap;
+	}
+}

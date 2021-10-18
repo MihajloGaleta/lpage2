@@ -210,6 +210,10 @@ body {
   box-shadow: 0 5px 0 #c86a40;
 }
 
+.burger-menu {
+  display: none;
+}
+
 .services {
   padding-bottom: 119px;
   background-color: #17c2a4;
@@ -664,4 +668,29 @@ body {
 }
 .footer__list-item:hover {
   color: #30bae7;
+}
+
+@media (max-width: 614px) {
+  .nav li {
+    display: none;
+  }
+
+  .burger-menu {
+    display: block;
+    align-self: flex-end;
+  }
+}
+@media (max-width: 872px) {
+  h1 {
+    max-width: 75%;
+    margin: 0 auto;
+  }
+
+  .our-team__crewman {
+    flex: 0 1 25%;
+  }
+
+  .flex-row {
+    flex-wrap: wrap;
+  }
 }
