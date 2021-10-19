@@ -556,7 +556,10 @@ word-spacing: 15px;
 		margin: 0 auto;
 	}
 	.our-team__crewman{
-		flex: 0 1 25%;
+		flex: 0 1 49%;
+		margin-bottom: 25px;
+		padding: 5px;
+		border: 1px solid #3c4761;
 	}
 	.flex-row{
 		flex-wrap: wrap;
