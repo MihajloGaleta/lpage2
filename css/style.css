@@ -349,7 +349,7 @@ body {
 
 .skills__flex-item {
   flex: 0 1 23%;
-  align-self: center;
+  align-self: flex-start;
   padding: 0 10px;
 }
 
@@ -361,16 +361,16 @@ body {
   margin-bottom: 27px;
 }
 .skills__percentage.skills__percentage-web-design {
-  background: url("../img/skills/bg__web-design.png") 25px 16px no-repeat;
+  background: url("../img/skills/bg__web-design.png") center/100% no-repeat;
 }
 .skills__percentage.skills__percentage-html-css {
-  background: url("../img/skills/bg__html-css.png") 25px 16px no-repeat;
+  background: url("../img/skills/bg__html-css.png") center/100% no-repeat;
 }
 .skills__percentage.skills__percentage-graphic-design {
-  background: url("../img/skills/bg__graphic-design.png") 25px 16px no-repeat;
+  background: url("../img/skills/bg__graphic-design.png") center/100% no-repeat;
 }
 .skills__percentage.skills__percentage-ui-ux {
-  background: url("../img/skills/bg__ui-ux.png") 25px 16px no-repeat;
+  background: url("../img/skills/bg__ui-ux.png") center/100% no-repeat;
 }
 .skills__percentage span {
   font-size: 32px;
