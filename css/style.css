@@ -509,6 +509,11 @@ body {
   margin: 0 auto;
 }
 
+.contacts__form-wrapper {
+  max-width: 96%;
+  margin: 0 auto;
+}
+
 .contacts__title {
   font-size: 40px;
   font-weight: 700;
@@ -692,5 +697,10 @@ body {
 
   .flex-row {
     flex-wrap: wrap;
+  }
+
+  input.user-name, input.user-mail {
+    width: 100%;
+    margin: 0 auto 10px;
   }
 }

@@ -429,6 +429,11 @@ word-spacing: 15px;
 	max-width: 860px;
 	margin: 0 auto;
 }
+.contacts__form-wrapper{
+	max-width: 96%;
+	margin: 0 auto;
+}
+
 .contacts__title  {  font-size: 40px;
   font-weight: 700;
   line-height: 0.75;
@@ -555,5 +560,9 @@ word-spacing: 15px;
 	}
 	.flex-row{
 		flex-wrap: wrap;
+	}
+	input.user-name, input.user-mail{
+		width: 100%;
+		margin: 0 auto 10px;
 	}
 }
