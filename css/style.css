@@ -244,7 +244,8 @@ body {
   max-height: 100%;
 }
 
-.services__subtitle, .our-team__subtitle {
+.services__subtitle,
+.our-team__subtitle {
   color: #fff;
   font-size: 24px;
   font-weight: 700;
@@ -325,13 +326,15 @@ body {
   margin-right: 12px;
 }
 
-.fab, .fas {
+.fab,
+.fas {
   display: inline-block;
   color: gray;
   font-size: 32px;
   border-radius: 50%;
 }
-.fab:hover, .fas:hover {
+.fab:hover,
+.fas:hover {
   color: blue;
 }
 
@@ -530,7 +533,8 @@ body {
   margin-bottom: 76px;
 }
 
-.user-name, .user-mail {
+.user-name,
+.user-mail {
   font-size: 18px;
   line-height: 1;
   color: #fff;
@@ -683,7 +687,9 @@ body {
     margin: 0 auto;
   }
 
-  .our-team__crewman, .services__flex-item, .client {
+  .our-team__crewman,
+.services__flex-item,
+.client {
     flex: 0 1 49%;
     margin-bottom: 25px;
     padding: 5px;
@@ -693,7 +699,8 @@ body {
     flex-wrap: wrap;
   }
 
-  input.user-name, input.user-mail {
+  input.user-name,
+input.user-mail {
     width: 100%;
     margin: 0 auto 10px;
   }
@@ -723,7 +730,13 @@ body {
     padding-bottom: 35px;
   }
 
-  .services, .our-team, .skills, .portfolio, .reviews, .contacts, .footer {
+  .services,
+.our-team,
+.skills,
+.portfolio,
+.reviews,
+.contacts,
+.footer {
     padding: 35px 0;
   }
 
@@ -745,7 +758,9 @@ body {
     margin-bottom: 50px;
   }
 
-  .portfolio__flex-item, .services__flex-item, .client {
+  .portfolio__flex-item,
+.services__flex-item,
+.client {
     flex-basis: 51%;
   }
 }
