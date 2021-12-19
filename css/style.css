@@ -739,6 +739,10 @@ input.user-mail {
     display: block;
     align-self: flex-end;
   }
+
+  * {
+    animation: none;
+  }
 }
 @media (max-width: 426px) {
   .nav {
@@ -776,6 +780,10 @@ input.user-mail {
   .flex-row {
     justify-content: center;
     margin-bottom: 50px;
+  }
+
+  .footer__list {
+    justify-content: center;
   }
 }
 @media (max-width: 321px) {

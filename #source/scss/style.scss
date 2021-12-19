@@ -711,6 +711,10 @@ body {
 		display: block;
 		align-self: flex-end;
 	}
+
+	* {
+		animation: none;
+	}
 }
 
 @media (max-width: 426px) {
@@ -749,6 +753,10 @@ body {
 	.flex-row {
 		justify-content: center;
 		margin-bottom: 50px;
+	}
+
+	.footer__list {
+		justify-content: center;
 	}
 }
 
