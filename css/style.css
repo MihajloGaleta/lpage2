@@ -89,6 +89,18 @@ body {
 }
 
 /*--------------------*/
+@keyframes transformAll {
+  from {
+    transform: scale(0, 0);
+  }
+  to {
+    transform: scale(1, 1);
+  }
+}
+* {
+  animation: transformAll 3s ease-in-out 1s;
+}
+
 /*MAKE GENERAL FONT FAMILY FOR BODY*/
 body {
   font-family: "Titillium Web", sans-serif;
@@ -357,7 +369,7 @@ body {
   font-size: 50px;
   font-weight: 300;
   text-align: center;
-  padding: 70px 40px;
+  padding: 90px 40px;
   margin-bottom: 27px;
 }
 .skills__percentage.skills__percentage-web-design {
@@ -417,9 +429,11 @@ body {
   background-color: #ebc985;
   border-radius: 3px;
   text-align: center;
+  cursor: pointer;
 }
 .portfolio__switch-item:hover {
   background-color: #fff;
+  box-shadow: 1px 1px 11px black;
 }
 .portfolio__switch-item button {
   background-color: transparent;
